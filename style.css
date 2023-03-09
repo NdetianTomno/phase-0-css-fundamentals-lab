@@ -3,9 +3,42 @@ body {
   height: 100%;
   margin: 0;
 }
-#featured-property{
 
-}
-#details{
+.top{
+  text-align: center;
   
+}
+.directions{
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+   padding-left: 12px;
+  padding-right: 12px;
+  }
+
+#featured-property{
+  text-align: center;
+}
+#featured-property p{
+  margin-left: 150px;
+}
+.figcap{
+  text-align: center;
+}
+
+#details{
+ display: flex;
+}
+
+#details div{
+  text-align: center;
+  background-color: rgb(218, 127, 8);
+  width: 100%;
+  float: left;
+}
+
+.bottom{
+text-align: right;
+float: right;
 }
